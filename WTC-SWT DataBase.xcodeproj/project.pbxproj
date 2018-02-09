@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01EA0711FF97BF40017B181 /* Certification+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EA06F1FF97BF40017B181 /* Certification+CoreDataClass.swift */; };
+		C01EA0721FF97BF40017B181 /* Certification+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EA0701FF97BF40017B181 /* Certification+CoreDataProperties.swift */; };
+		C02E64841FFA6C5E00E40E66 /* CertificateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E64831FFA6C5E00E40E66 /* CertificateTableViewCell.swift */; };
+		C02E64861FFBC40200E40E66 /* CertificateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E64851FFBC40200E40E66 /* CertificateDetailViewController.swift */; };
+		C0372D571FF7BADD00E59407 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0372D561FF7BADD00E59407 /* ShowImageViewController.swift */; };
 		C0422B191FF2DACE0079C69B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B181FF2DACE0079C69B /* AppDelegate.swift */; };
-		C0422B1B1FF2DACE0079C69B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B1A1FF2DACE0079C69B /* ViewController.swift */; };
+		C0422B1B1FF2DACE0079C69B /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B1A1FF2DACE0079C69B /* EquipmentViewController.swift */; };
 		C0422B1E1FF2DACE0079C69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0422B1C1FF2DACE0079C69B /* Main.storyboard */; };
 		C0422B211FF2DACE0079C69B /* WTC_SWT_DataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0422B1F1FF2DACE0079C69B /* WTC_SWT_DataBase.xcdatamodeld */; };
 		C0422B231FF2DACE0079C69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0422B221FF2DACE0079C69B /* Assets.xcassets */; };
 		C0422B261FF2DACE0079C69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0422B241FF2DACE0079C69B /* LaunchScreen.storyboard */; };
 		C0422B311FF2DACF0079C69B /* WTC_SWT_DataBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B301FF2DACF0079C69B /* WTC_SWT_DataBaseTests.swift */; };
 		C0422B3C1FF2DACF0079C69B /* WTC_SWT_DataBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B3B1FF2DACF0079C69B /* WTC_SWT_DataBaseUITests.swift */; };
+		C0422B4A1FF2DB990079C69B /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B491FF2DB990079C69B /* PersistanceService.swift */; };
+		C0422B4D1FF2E1770079C69B /* EquipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B4C1FF2E1770079C69B /* EquipmentTableViewCell.swift */; };
+		C0422B571FF2EBBA0079C69B /* EquipmentList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B551FF2EBBA0079C69B /* EquipmentList+CoreDataClass.swift */; };
+		C0422B581FF2EBBA0079C69B /* EquipmentList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B561FF2EBBA0079C69B /* EquipmentList+CoreDataProperties.swift */; };
+		C0422B5A1FF2F2D20079C69B /* AddEquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0422B591FF2F2D20079C69B /* AddEquipmentViewController.swift */; };
+		C0478BC51FFC9A7B00126F4A /* ShowCertificateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0478BC41FFC9A7B00126F4A /* ShowCertificateViewController.swift */; };
+		C0478BC91FFCC02C00126F4A /* AllCertificateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0478BC81FFCC02C00126F4A /* AllCertificateTableViewCell.swift */; };
+		C0478BCB1FFCCE8100126F4A /* AllCertificaitonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0478BCA1FFCCE8100126F4A /* AllCertificaitonViewController.swift */; };
+		C0B56FB71FF985A300F5574E /* AddCertificateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B56FB61FF985A300F5574E /* AddCertificateViewController.swift */; };
+		C0B56FBB1FF9A4E100F5574E /* CertificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B56FBA1FF9A4E100F5574E /* CertificationTableViewController.swift */; };
+		C0C28F491FF587AB001D7DDB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C28F481FF587AB001D7DDB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C01EA06F1FF97BF40017B181 /* Certification+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Certification+CoreDataClass.swift"; path = "WTC-SWT DataBase/Certification+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C01EA0701FF97BF40017B181 /* Certification+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Certification+CoreDataProperties.swift"; path = "WTC-SWT DataBase/Certification+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C02E64831FFA6C5E00E40E66 /* CertificateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateTableViewCell.swift; sourceTree = "<group>"; };
+		C02E64851FFBC40200E40E66 /* CertificateDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateDetailViewController.swift; sourceTree = "<group>"; };
+		C0372D561FF7BADD00E59407 /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
 		C0422B151FF2DACE0079C69B /* WTC-SWT DataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WTC-SWT DataBase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0422B181FF2DACE0079C69B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0422B1A1FF2DACE0079C69B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0422B1A1FF2DACE0079C69B /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
 		C0422B1D1FF2DACE0079C69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0422B201FF2DACE0079C69B /* WTC_SWT_DataBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WTC_SWT_DataBase.xcdatamodel; sourceTree = "<group>"; };
 		C0422B221FF2DACE0079C69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +70,17 @@
 		C0422B371FF2DACF0079C69B /* WTC-SWT DataBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WTC-SWT DataBaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0422B3B1FF2DACF0079C69B /* WTC_SWT_DataBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTC_SWT_DataBaseUITests.swift; sourceTree = "<group>"; };
 		C0422B3D1FF2DACF0079C69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0422B491FF2DB990079C69B /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		C0422B4C1FF2E1770079C69B /* EquipmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewCell.swift; sourceTree = "<group>"; };
+		C0422B551FF2EBBA0079C69B /* EquipmentList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "EquipmentList+CoreDataClass.swift"; path = "WTC-SWT DataBase/EquipmentList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C0422B561FF2EBBA0079C69B /* EquipmentList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "EquipmentList+CoreDataProperties.swift"; path = "WTC-SWT DataBase/EquipmentList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C0422B591FF2F2D20079C69B /* AddEquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEquipmentViewController.swift; sourceTree = "<group>"; };
+		C0478BC41FFC9A7B00126F4A /* ShowCertificateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCertificateViewController.swift; sourceTree = "<group>"; };
+		C0478BC81FFCC02C00126F4A /* AllCertificateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCertificateTableViewCell.swift; sourceTree = "<group>"; };
+		C0478BCA1FFCCE8100126F4A /* AllCertificaitonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCertificaitonViewController.swift; sourceTree = "<group>"; };
+		C0B56FB61FF985A300F5574E /* AddCertificateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCertificateViewController.swift; sourceTree = "<group>"; };
+		C0B56FBA1FF9A4E100F5574E /* CertificationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationTableViewController.swift; sourceTree = "<group>"; };
+		C0C28F481FF587AB001D7DDB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +111,10 @@
 		C0422B0C1FF2DACE0079C69B = {
 			isa = PBXGroup;
 			children = (
+				C01EA06F1FF97BF40017B181 /* Certification+CoreDataClass.swift */,
+				C01EA0701FF97BF40017B181 /* Certification+CoreDataProperties.swift */,
+				C0422B551FF2EBBA0079C69B /* EquipmentList+CoreDataClass.swift */,
+				C0422B561FF2EBBA0079C69B /* EquipmentList+CoreDataProperties.swift */,
 				C0422B171FF2DACE0079C69B /* WTC-SWT DataBase */,
 				C0422B2F1FF2DACF0079C69B /* WTC-SWT DataBaseTests */,
 				C0422B3A1FF2DACF0079C69B /* WTC-SWT DataBaseUITests */,
@@ -99,8 +135,9 @@
 		C0422B171FF2DACE0079C69B /* WTC-SWT DataBase */ = {
 			isa = PBXGroup;
 			children = (
-				C0422B181FF2DACE0079C69B /* AppDelegate.swift */,
-				C0422B1A1FF2DACE0079C69B /* ViewController.swift */,
+				C0422B501FF2E22F0079C69B /* Model */,
+				C0422B4F1FF2E2050079C69B /* CellViewController */,
+				C0422B4E1FF2E1FB0079C69B /* ViewController */,
 				C0422B1C1FF2DACE0079C69B /* Main.storyboard */,
 				C0422B221FF2DACE0079C69B /* Assets.xcassets */,
 				C0422B241FF2DACE0079C69B /* LaunchScreen.storyboard */,
@@ -126,6 +163,41 @@
 				C0422B3D1FF2DACF0079C69B /* Info.plist */,
 			);
 			path = "WTC-SWT DataBaseUITests";
+			sourceTree = "<group>";
+		};
+		C0422B4E1FF2E1FB0079C69B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0422B1A1FF2DACE0079C69B /* EquipmentViewController.swift */,
+				C0422B591FF2F2D20079C69B /* AddEquipmentViewController.swift */,
+				C0C28F481FF587AB001D7DDB /* DetailViewController.swift */,
+				C0372D561FF7BADD00E59407 /* ShowImageViewController.swift */,
+				C0B56FB61FF985A300F5574E /* AddCertificateViewController.swift */,
+				C0B56FBA1FF9A4E100F5574E /* CertificationTableViewController.swift */,
+				C02E64851FFBC40200E40E66 /* CertificateDetailViewController.swift */,
+				C0478BC41FFC9A7B00126F4A /* ShowCertificateViewController.swift */,
+				C0478BCA1FFCCE8100126F4A /* AllCertificaitonViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0422B4F1FF2E2050079C69B /* CellViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0422B4C1FF2E1770079C69B /* EquipmentTableViewCell.swift */,
+				C02E64831FFA6C5E00E40E66 /* CertificateTableViewCell.swift */,
+				C0478BC81FFCC02C00126F4A /* AllCertificateTableViewCell.swift */,
+			);
+			path = CellViewController;
+			sourceTree = "<group>";
+		};
+		C0422B501FF2E22F0079C69B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0422B181FF2DACE0079C69B /* AppDelegate.swift */,
+				C0422B491FF2DB990079C69B /* PersistanceService.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +334,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0422B1B1FF2DACE0079C69B /* ViewController.swift in Sources */,
+				C0422B1B1FF2DACE0079C69B /* EquipmentViewController.swift in Sources */,
+				C0422B4D1FF2E1770079C69B /* EquipmentTableViewCell.swift in Sources */,
+				C0B56FB71FF985A300F5574E /* AddCertificateViewController.swift in Sources */,
+				C0422B4A1FF2DB990079C69B /* PersistanceService.swift in Sources */,
 				C0422B191FF2DACE0079C69B /* AppDelegate.swift in Sources */,
+				C0478BC91FFCC02C00126F4A /* AllCertificateTableViewCell.swift in Sources */,
+				C02E64861FFBC40200E40E66 /* CertificateDetailViewController.swift in Sources */,
+				C0478BC51FFC9A7B00126F4A /* ShowCertificateViewController.swift in Sources */,
+				C0B56FBB1FF9A4E100F5574E /* CertificationTableViewController.swift in Sources */,
+				C01EA0721FF97BF40017B181 /* Certification+CoreDataProperties.swift in Sources */,
+				C01EA0711FF97BF40017B181 /* Certification+CoreDataClass.swift in Sources */,
+				C0372D571FF7BADD00E59407 /* ShowImageViewController.swift in Sources */,
+				C0422B571FF2EBBA0079C69B /* EquipmentList+CoreDataClass.swift in Sources */,
+				C0422B581FF2EBBA0079C69B /* EquipmentList+CoreDataProperties.swift in Sources */,
+				C02E64841FFA6C5E00E40E66 /* CertificateTableViewCell.swift in Sources */,
+				C0C28F491FF587AB001D7DDB /* DetailViewController.swift in Sources */,
+				C0422B5A1FF2F2D20079C69B /* AddEquipmentViewController.swift in Sources */,
 				C0422B211FF2DACE0079C69B /* WTC_SWT_DataBase.xcdatamodeld in Sources */,
+				C0478BCB1FFCCE8100126F4A /* AllCertificaitonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
